@@ -1,6 +1,6 @@
 import sys
 import os
-from decenc import decrypt, encrypt
+from encdec import decrypt, encrypt
 
 v = sys.version
 if "2.7" in v:
