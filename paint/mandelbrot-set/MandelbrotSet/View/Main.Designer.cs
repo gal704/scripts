@@ -127,7 +127,7 @@
             this.iterationsInput.Name = "iterationsInput";
             this.iterationsInput.Size = new System.Drawing.Size(71, 20);
             this.iterationsInput.TabIndex = 9;
-            this.iterationsInput.Text = "0";
+            this.iterationsInput.Text = "20";
             this.iterationsInput.TextChanged += new System.EventHandler(this.iterationsInput_TextChanged);
             // 
             // label1

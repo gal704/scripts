@@ -54,11 +54,13 @@ namespace MandelbrotSet.MainController
         void TopButtonClicked(object sender, EventArgs e)
         {
             this.top += this.translationStep;
+            this.RenderFractal();
         }
 
         void RightButtonClicked(object sender, EventArgs e)
         {
             this.left -= this.translationStep;
+            this.RenderFractal();
         }
 
         void RenderButtonClicked(object sender, EventArgs e)
@@ -69,6 +71,7 @@ namespace MandelbrotSet.MainController
         void LeftButtonClicked(object sender, EventArgs e)
         {
             this.left += this.translationStep;
+            this.RenderFractal();
         }
 
         void IterationsValueChanged(object sender, EventArgs e)
@@ -89,6 +92,7 @@ namespace MandelbrotSet.MainController
         public void ButtomButtonClicked(object sender, EventArgs e)
         {
             this.top -= this.translationStep;
+            this.RenderFractal();
         }
 
         private void RenderFractal()
